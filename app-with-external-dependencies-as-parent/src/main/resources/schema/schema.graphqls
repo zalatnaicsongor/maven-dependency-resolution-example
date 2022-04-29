@@ -1,0 +1,8 @@
+type Query2 {
+    shows(titleFilter: String): [Show2]
+}
+
+type Show2 {
+    title: String
+    releaseYear: Int
+}
